@@ -1,0 +1,591 @@
+  				/*========== GOOGLE FONTS ==========*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/*========== VARIABLES CSS ==========*/
+:root {
+  --nav-width: 100%;
+  /*========== Colors ==========*/
+  --first-color: #6923D0;
+  --first-color-light: #00F2A9;
+  --title-color: #000000;
+  --text-color: #58555E;
+  --text-color-light: #A5A1AA;
+  --body-color: #000000;
+  --Achsin-TukangNgopi: filter: invert(56%) sepia(34%) saturate(962%) hue-rotate(128deg) brightness(96%) contrast(81%);
+  --container-color:#ffffff; 
+  /*========== Font and typography ==========*/
+  --body-font: 'Arial', sans-serif;
+  --normal-font-size: .938rem;
+  --small-font-size: .75rem;
+  --smaller-font-size: .75rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  /*========== z index ==========*/
+  --z-fixed: 100;
+}
+@media screen and (min-width: 1024px) {
+  :root {
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+  }
+}
+/*========== BASE ==========*/
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: var(--header-height) 0 0 0;
+  padding: none;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: #ffffff;
+  color: var(--text-color);
+}
+h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*========== HEADER ==========*/
+.AchsinUIUXx {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:9.3%;
+  background-color: #009788;
+   border-radius:0px 0px 0px 0px;
+  padding: 0 1rem;
+  z-index: var(--z-fixed);
+}
+.AchsinUIUXx__container {
+  display: flex;
+  align-items: center;
+  height: var(--header-height);
+  justify-content: space-between;
+}
+.AchsinUIUXx__img {
+  position:relative;
+  width:170px;
+  height: 41px;
+  left:0%;
+  top:8px;
+}
+.AchsinulUmamTukangNgopie { 
+		width:100%;
+		height:132px;
+		background-color: #009788;
+		color: #fff;
+		font-family: Arial;
+		font-size: 16px;
+		font-weight: bold;
+		position: absolute;
+		top:25px;
+		left: 0;
+		padding:10px 15%;
+		z-index: -1;
+		border-radius:10% 48% 100% 100% / 0% 8% 21% 21% ;
+	}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.AchsinUIUXslideshow-container {
+  max-width: 100%;
+  position: relativ;
+  margin-top: 5.6%;
+}
+/* The dots/bullets/indicators */
+.Achsindot {
+  height: 8px;
+  width: 8px;
+  margin-top: 0 9;
+  background-color: #dedede;
+  border-radius: 61%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.activeeAchsin {
+  background-color:#20AFA7;
+  width:31px;
+  border-radius:20px;
+}
+.Achsindotdark{
+background-color:azure;
+}
+.activeedark{background-color:white}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.AchsinulUmamcard {
+  width: 98%;
+  margin-top: 0%;
+  margin-left: 1%;
+  height: 50%;
+  text-align: center;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+.AchsinulUmamcard a {
+  cursor: none;
+}
+.Achsincolum2 {
+  float: left;
+  width: 25%;
+height: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 3px;
+}
+@media screen and (max-width: 650px) {
+  .Achsincolumn2 {
+    display: block;
+  }
+}
+.Achsincarddd {
+  border-radius: 0px;
+  margin: 0px;
+  text-align: center;
+  background-color: #fff;
+  border: 0.5px solid #ff000000;
+  transition: 0.5s;
+  height: auto;
+  overflow: hidden;
+}
+.containerAchsine {
+  padding: 0 0px;
+}
+.TukangNgopie {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin: 0%;
+}
+.containerAchsine::after, .TukangNgopie::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.AchsinulUmamtitle {
+  color: black;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5.5%;
+}
+.Achsinuiux-imagee {
+    border-radius: 50px;
+    margin-bottom: 0px;
+    margin-top: 1%;
+    width: 70%;  
+    padding:4px;
+}
+	.nama-penggunaNgopie {
+		width:auto;
+		height :auto;
+		font-family:Arial;
+		font-weight: bold;
+		font-size:15px;
+		color:black;
+		position: absolute;
+		top:9px;
+		left:5.5%;
+		z-index: 2;
+	}
+.saldoNgopie {
+		width:auto;
+		height :auto;
+		font-family:Arial;
+		font-weight: bold;
+		font-size:15px;
+		color:#000;
+		position: absolute;
+		top:31px;
+		left:5.5%;
+		z-index: 2;
+	}
+.namadepositoNgopie {
+		width:85px;
+		height:35px;
+		padding:4px;
+		font-family: Arial;
+		font-weight:bold;
+		font-size: 13px;
+		border-radius:5px;
+    background-color: #009788;
+    color: #ffffff;
+		position: absolute;
+		right:20px;
+		top:15px;
+		z-index:2;
+		text-align: center;
+		line-height:27px;
+	}
+	.navbarrAchsinulUmam {
+		height:58px;
+		position: fixed;
+		bottom: 0px;
+		left:0%;
+		padding-top: 5px;
+		width: 100%;
+		border-radius:0px 0px 0px 0px;
+		display: block;
+	  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+		z-index:6;
+    background:#fff;
+}
+	.navbarrAchsinulUmam a {
+		width:20%;
+		float: left;
+		display: block;
+		text-align: center;
+		padding-top: 0px;
+		font-size: 14px;
+		font-family:poppins;
+		color:#darkgrey;
+	}
+	.navbarrAchsinulUmam a:hover {
+		color:#darkgrey ;
+		cursor:none;
+}
+  .strip-navbarrAchsinulUmam
+{
+  width:35%;
+  height:auto;
+  margin-top:-30px;
+}
+
+#Achsinnkotak-header { 
+		width:100%;
+		height:68px;
+		background-color: #009788;
+		color: #fff;
+		font-family: Arial;
+		font-size: 16px;
+		font-weight: bold;
+		position: fixed;
+		top:0;
+		left: 0;
+		padding:10px 15%;
+		z-index: 111112;
+		border-radius:0 0 0px 0px;
+     box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
+	}
+
+.Achsinullwrapperr{
+  width: 100%;
+  background: #fff;
+  border-radius: 0px;
+  padding: 16px;
+  z-index: 1111112;
+}
+.Achsinullwrapperr header{
+ width:91%;
+ background:#E5E5E5;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  border: 0px solid #ccc;
+  border-radius: 15px;
+  position: fixed;
+  z-index:1000;
+  padding:10px;
+  margin-top:-5px;
+  z-index: 1111112;
+}
+header label{
+  color:#000;
+  height: 100%;
+  z-index: 2;
+  width: 50%;
+  display: flex;
+  cursor: pointer;
+  font-size: 15px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease;
+}
+#Achsinulletab-1:checked ~ header .Achsinulletab-1,
+#Achsinulletab-2:checked ~ header .Achsinulletab-2
+{
+  color: #00000;font-weight: bold;
+}
+header label:nth-child(2){
+  width: 40%;
+}
+header .slider{
+  position: absolute;
+  height: 79%;
+  border-radius: inherit;
+  background: #fff;
+  transition: all 0.3s ease;
+}
+#Achsinulletab-1:checked ~ header .slider{
+  left: 0.2%;
+  width: 50%;
+  transform: translateX(5%);
+}
+#Achsinulletab-2:checked ~ header .slider{
+  left: 71.8%;
+  width: 50%;
+  transform: translateX(-50%);
+}
+.Achsinullwrapperr input[type="radio"]{
+  display: none;
+}
+.card-area{
+  overflow: hidden;
+}
+.card-area .cards{
+  display: flex;
+  width: 400%;
+}
+.cards .row{
+  width: 25%;
+}
+.cards .row-1{
+  transition: all 0.3s ease;
+}
+#Achsinulletab-1:checked ~ .card-area .cards .row-1{
+   margin-left: 0%;
+}
+#Achsinulletab-2:checked ~ .card-area .cards .row-1{
+  margin-left: -25.1%;
+}
+.row .price-details{
+  margin: 70px 0;
+  text-align: center;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.price-details .price{
+  font-size: 65px;
+  font-weight: 600;
+  position: relative;
+  font-family: 'Noto Sans', sans-serif;
+}
+.price-details .price::before,
+.price-details .price::after{
+  position: absolute;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.price-details .price::before{
+  content: "$";
+  left: -13px;
+  top: 17px;
+  font-size: 20px;
+}
+.price-details .price::after{
+  content: "/mon";
+  right: -33px;
+  bottom: 17px;
+  font-size: 13px;
+}
+.price-details p{
+  font-size: 18px;
+  margin-top: 5px;
+}
+.row .features li{
+  display: flex;
+  font-size: 15px;
+  list-style: none;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.AchsinTukangNgopieform-pdf {
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    padding: 17px 0px;
+    width: 100% ! important;
+}
+.AchsinTukangNgopieform-pdf label {
+    position: relative;
+    display: block;
+    margin: 15px 0 10px 0;
+    text-align: left;
+    width: 100%;
+}
+.AchsinTukangNgopieform-pdf input, .AchsinTukangNgopieform-pdf select {
+    position: relative;
+    display: block;
+    margin: 5px 0;
+    padding: 9px 35px;
+    width: 100%;
+    border: 1px solid #ff000000;
+} 
+.AchsinTukangNgopieform-pdf select {      
+    margin: 0 0 20px;
+    transition: all .3s ease 0s;
+    resize: none;
+    box-sizing: border-box;
+}      
+.AchsinTukangNgopieform-pdf input:focus,.AchsinTukangNgopieform-pdf select:focus {
+    border: 1px solid #ddd;
+}  
+select {
+text-transform: none;
+}
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    text-overflow: ellipsis;
+    background-image: url(data:image/svg+xml,%3Csvg\ style=\'fill:rgba\(0,0,0,.4\);\'\ xmlns=\'http://www.w3.org/2000/svg\'\ viewBox=\'0\ 0\ 512\ 512\'%3E%3Cpath\ d=\'M256\ 294.1L383\ 167c9.4-9.4\ 24.6-9.4\ 33.9\ 0s9.3\ 24.6\ 0\ 34L273\ 345c-9.1\ 9.1-23.7\ 9.3-33.1.7L95\ 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3\ 7-17c9.4-9.4\ 24.6-9.4\ 33.9\ 0l127.1\ 127z\'%3E%3C/path%3E%3C/svg%3E);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    border-radius:8px;
+    background-position-y: 10px;
+    background-size: 20px auto;
+    padding-right: 45px;
+    position: relative;
+}
+input:focus,select:focus {
+    border:none;
+    border-radius:15px;
+    border-bottom: 1px solid #999;
+    outline: none;
+} 
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+input::-webkit-input-placeholder,
+select::-webkit-input-placeholder {
+    color: #444444;
+}
+input:-ms-input-placeholder,
+select:-ms-input-placeholder {
+    color: #444444;
+}
+input::placeholder,
+select::placeholder {
+    color: #444444;
+} 
+.datainput {
+    position: relative;
+}      
+#AchainNgopielurdata-beli {
+   position: relative;
+   display: grid;
+   grid-template-columns: auto auto;
+    margin: 30px auto;
+    padding: 10px 0px;
+    max-width: 500px;
+    float:left;
+    width: 97%;
+}
+.box-layanan {
+    position: relative;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: normal;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    top:-70px;
+    margin: 20px 0 15px 0;
+    padding: 5px 10px;
+    margin-left:10px;
+    border-radius:10px;
+    background: #ffffff;
+    -webkit-box-shadow: 0 5px 10px rgb(58 90 229 / 15%);
+    box-shadow: 0 5px 10px rgb(58 90 229 / 15%);
+}
+.box-layanan .wrap-layanan {
+    position: relative;
+    display: block;
+    padding: 2px;
+    font-size: 1px;
+    text-align:left;
+}
+.wrap-layanan .paket {
+    font-size: 15px;
+    font-weight: 600;
+    color: #444;
+}
+.wrap-layanan .layanan, .wrap-layanan .harga {
+    color: #747373;
+    line-height: 14px;
+    padding:5px;
+    font-size:15px;
+    text-align:left;
+   margin-left:-5px;
+}
+.box-layanan .beli {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 14px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+} 
+.box-layanan .beli a {
+    position: relative;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #009788;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #009788;
+    border-radius: 5px;
+}     
