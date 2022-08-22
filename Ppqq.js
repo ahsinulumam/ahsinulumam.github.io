@@ -1,4 +1,5 @@
-      {"id":"paketTeleponAxis","paket":"Tlpn 30 menit All operator 7Hari","harga":"Rp6.065","link":"https://pulsaku.id/widget/pulsa/jj/0505D0/AXT7","ket":"BELI"
+   [  
+{"id":"paketTeleponAxis","paket":"Tlpn 30 menit All operator 7Hari","harga":"Rp6.065","link":"https://pulsaku.id/widget/pulsa/jj/0505D0/AXT7","ket":"BELI"
 },
       {"id":"paketTeleponAxis","paket":"Tlpn 100 menit All operator 30Hari","harga":"Rp6.065","link":"https://pulsaku.id/widget/pulsa/jj/0505D0/AXT30","ket":"BELI"
 },
@@ -88,5 +89,5 @@
 },
      {"id":"paketSmsThree","paket":"All operator 600sms 14Hari","harga":"Rp6.065","link":"https://pulsaku.id/widget/pulsa/jj/0505D0/TS600","ket":"BELI"
 },
- 
+ ]
       
