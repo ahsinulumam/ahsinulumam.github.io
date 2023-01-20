@@ -1,0 +1,121 @@
+.tab-nav-container::before {
+	content: '';
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	bottom: 100%;
+	left: 0px;
+	border-radius: 48%;
+	box-shadow: -20px 16px 0 #E04E73;
+display: none;
+}
+.tab-nav-container::after {
+content: '';
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	bottom: 100%;
+	right: -0px;
+	border-radius: 48%;
+	box-shadow: 20px 16px 0 0px #EB5A80;
+display: none;
+}
+.tab {
+    background-color: #ff000000;
+    border-radius: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0 0px;
+    color:#1c1c1c;
+    transition: background 0.4s linear;
+}
+.tab i {
+font-size: 0.1em;
+}
+.tab p {
+font-size:0.8em;
+font-weight: bold;
+overflow: hidden;
+max-width: 0;
+}
+.tab.active p {
+margin-left: 10px;
+max-width: 250px;
+transition: max-width 0.4s linear;
+}
+.tab.active.purple {
+background:var(--AchsinulUmamB1);
+color: var(--Achsincolor1);
+}
+.tab.active.pink {
+background:var(--AchsinulUmamB2); 
+color: var(--Achsincolor2);
+}
+.tab.active.yellow {
+background:var(--AchsinulUmamB3);
+color: var(--Achsincolor3);
+}
+.tab.active.teal {
+ background:var(--AchsinulUmamB1);
+ color: var(--Achsincolor1);
+}
+#AchsinulUmamLagiNgopi-tab {
+position: relative;
+display: block;
+margin-bottom: 120px;
+}
+@media (max-width: 450px) {
+.tab-nav-container {
+padding-left: 15px;
+padding-right:15px;
+padding-top:12px;
+padding-bottom:12px;
+width: 360px;
+}
+.tab {
+ padding: 0 15px;
+ margin: 0px;
+}
+.tab i {
+font-size: 1.2em;
+}
+}
+h11{
+color:white;
+animation:blinktext 2s  infinite;
+}
+@keyframes blinktext {
+ 0%{opacity:0.1;}
+30%{opacity:1; text-shadow: 1px 0px 30px yellow;}
+ 100%{
+ opacity:0.1;
+ }
+ }
+	#kotak-header { 
+		width:100%;
+		height:62px;
+		background-color: #F8F8F8;
+		color: #000;
+     font-family: Arial;
+		font-size: 16px;
+		font-weight: bold;
+		position: fixed;
+		top:0;
+		left: 0;
+		padding:10px 15%;
+		z-index: 11111;
+		border-radius:0 0 0px 0px;
+	}
+	.logo-header { 
+		width:44px;
+		position:fixed;
+		top:10px;
+		right:19px;
+		z-index: 222222;
+		padding:0px;
+border: solid 1px var(--Achsincolor1);
+border-radius:50%;
+	}
