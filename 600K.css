@@ -1,0 +1,120 @@
+.card1{
+    position: relative;
+    width: 74px;
+    height: 20px;
+    top: 5px;
+    left: -15px;
+    background: var(--Achsincolor1);
+  border-bottom-left-radius: 0px;
+    border-top-left-radius: 15px;
+border-bottom-right-radius: 14px;
+    border-top-right-radius: 10px;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: Arial;
+text-align: center;
+color:white;
+    padding-top: 3px;
+}
+.card1::before{
+    content: '';
+    position: absolute;
+    top: 20px;
+    width: 6px;
+    height: 10px;
+    background: #CC224D;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    z-index: 1;
+    left: 0.5%;
+}
+.card1::after{
+    content: '';
+    position: absolute;
+    top: 20px;
+    width: 6px;
+    height: 5px;
+    background: var(--Achsincolor1);
+    z-index: 0;
+    left: 0px;
+}
+.card12c{
+    position: relative;
+    width: 74px;
+    height: 20px;
+    top: 5px;
+    left: -15px;
+    background: var(--Achsincolor2);
+  border-bottom-left-radius: 0px;
+    border-top-left-radius: 15px;
+border-bottom-right-radius: 14px;
+    border-top-right-radius: 10px;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: Arial;
+text-align: center;
+color:white;
+    padding-top: 3px;
+}
+.card12c::before{
+    content: '';
+    position: absolute;
+    top: 20px;
+    width: 6px;
+    height: 10px;
+    background: #D88506;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    z-index: 1;
+    left: 0.5%;
+}
+.card12c::after{
+    content: '';
+    position: absolute;
+    top: 20px;
+    width: 6px;
+    height: 5px;
+    background: var(--Achsincolor2);
+    z-index: 0;
+    left: 0px;
+}
+.card13c{
+    position: relative;
+    width: 74px;
+    height: 20px;
+    top: 5px;
+    left: -15px;
+    background: var(--Achsincolor3);
+  border-bottom-left-radius: 0px;
+    border-top-left-radius: 15px;
+border-bottom-right-radius: 14px;
+    border-top-right-radius: 10px;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: Arial;
+text-align: center;
+color:white;
+    padding-top: 3px;
+}
+.card13c::before{
+    content: '';
+    position: absolute;
+    top: 20px;
+    width: 6px;
+    height: 10px;
+    background: #078D65;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    z-index: 1;
+    left: 0.5%;
+}
+.card13c::after{
+    content: '';
+    position: absolute;
+    top: 20px;
+    width: 6px;
+    height: 5px;
+    background: var(--Achsincolor3);
+    z-index: 0;
+    left: 0px;
+}
