@@ -252,69 +252,7 @@ function formatNumber(rupiah) {
     animate: 5000,
   });
 });
-var url_produk = '';
-  var halaman = 1;
-  // var page = 0;
-  function get_data() {
-    $.ajax({
-      url: 'https://achsinfrontand.my.id/Produktes1/stok.php',
-      data: {
-        // q: '1',
-        // page: page,
-        halaman: halaman
-      },
-      method: 'POST',
-      dataType: 'JSON',
-      success: function(data) {
-        try {
-          var xhtml = '';
-          data.forEach(function(element) {
-            console.log(element);
-            xhtml += '\
-        <article class="layout-wrap-list">\
-          <div class="layout-bungkus">\
-            <div class="layout-isi">\
-              <div class="layout-image">\
-                <a href="https://jgjk.mobi/p/'+element.Gambar.substr(-17, 13)+'">\
-                  <div class="keterangan">Stock '+element.Stok+'</div>\
-                  <img src="'+element.Gambar+'" alt="'+element.Nama+'" width="300" height="300"/>\
-                </a>\
-              </div>\
-              <div class="layout-title">\
-                <a href="https://jgjk.mobi/p/'+element.Gambar.substr(-17, 13)+'">'+element.Nama+'</a>\
-                <p>Recommended produk discount</p>\
-              ';
-              if (element.Diskon != ""){
-              xhtml += '\
-              <div class="layout-harga diskon" style="text-decoration: line-through;color:grey;float:left;font-size:10px;margin-top:23px;">'+element.Diskon+'</div>\
-                <div class="layout-harga" style="margin-top:5px;padding:11px 1px 10px 1px;float:right;">'+element.Harga+'</div>\
-              ';
-              }
-              xhtml += '\
-              <div class="box-prosentase">\
-                <div class="progress-prosentase" style="width: '+element.Persen+'"></div>\
-              </div>\
-              ';
-              xhtml += '\
-              </div>\
-            </div>\
-          </div>\
-        </article>\
-            ';
-          });
-          $("#daata-productt").html(xhtml);
-        } catch (err) {
-          alert('Terjadi Kesalahan. 01\n\n' + err.responseText);
-        }
-      },
-      error: function(err) {
-        alert('Terjadi Kesalahan. 02\n\n' + err.responseText);
-      }
-    });
-    halaman++;
-  }
-  
-get_data();
+
   $(".nav__link").on("click", function () {
   if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") || location.hostname == this.hostname) {
    $(this).parents(".nav__list").find("a").removeClass("active-link");
