@@ -172,7 +172,7 @@ if (checkinhome) {
                 var id = data.id;
                 var namavideo = data.namavideo;
                 var idvideo = data.idvideo;
-                html += '<a class="reel-content-wrap" href="post.html?id='+id+'">';
+                html += '<a class="reel-content-wrap" href="https://ahsinulumam.github.io/post.html?id='+id+'">';
                 html += '<div class="reel-content-frame">';
                 html += '<div class="reel-image">';
                 html += '<div class="cover-image"></div>';
