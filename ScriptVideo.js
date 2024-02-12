@@ -1,7 +1,7 @@
-var linkupload = "https://script.google.com/macros/s/AKfycbzUL0m3cBD4-HrEr20Et912dTfP9lrJUXZV2kUmT7LzP6t22goCvgDf66Aa94STHyI6aA/exec";
-var apikeyFirebase = "AIzaSyCr772xGxGXoHnRp33id3PKl9F_x5KK_aU";
-var projectID = "videoproduk-3785f";
-var appID = "1:338617070909:web:2d12189f19ff8d42188154";
+var linkupload = "https://script.google.com/macros/s/AKfycbzILl6iTDS87UAJaveH9Q-ItcGwwKohL3a2wvh0y5ftCNvnCatmfRzOjSS0hoTP4iJW/exec";
+var apikeyFirebase = "AIzaSyAzafK8y1hx0BJ1tBPuxYA8qc1qgkBqkLE";
+var projectID = "shortproject-5951e";
+var appID = "1:196282850289: web: 44aca0081b3d3a01f40250";
 var splitappID = appID.split(":");
 var senderID = splitappID[1];
 
