@@ -1,0 +1,289 @@
+#kotak-header { 
+		width:100%;
+		height:58px;
+		background-color: #fff;
+		color: #fff;
+		font-family: Arial;
+		font-size: 15px;
+		font-weight: bold;
+		position: fixed;
+		top:0;
+		left: 0;
+		padding:10px 15%;
+		z-index: 10005;
+
+	}
+
+	
+.nama-pengguna {
+		width:94%;
+		height :auto;
+		font-family:Arial;
+		font-weight: 450;
+		font-size:16px;
+		color:black;
+		position:fixed;
+		top:12px;
+		left:14%;
+		
+		z-index: 10006;
+	}
+* {
+  box-sizing:border-box;
+}
+body {
+  background:#fff;
+  font-family:"Raleway",sans-serif;
+
+}
+.tabs {
+  position:fixed;
+  top:57%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:100%;
+  height:100%;
+  background:#fff;
+  overflow: hidden;
+  box-shadow:2px 2px 5px 2px #ccc;
+  display:flex;
+}
+.tabs .tab-header {
+  width:30%;
+  background:#F5F5F5;
+
+  
+}
+.tabs .tab-header > div {
+  width:100%;
+  height:calc(100% / 12);
+  background:#F5F5F5;
+  text-indent:0px;
+  padding:14px;
+  color:grey;
+  font-weight:421;
+  font-size:11px;
+  text-align:center;
+  display:flex;
+  
+  border-left:0px solid red;
+  align-items:center;
+  cursor:pointer;
+  transition:all 200ms ease-in-out;
+
+}
+
+
+
+.tabs .tab-header > div.active {
+  border-left:3px solid red;
+  color:red;
+  height:60px;
+  background:#fff;
+  position:relative;
+  
+  z-index:99;
+}
+
+
+
+
+
+.tabs .tab-header > div.active::before {
+	content: '';
+	position: absolute;
+	width: 103%;
+	height: 6px;
+	border-bottom-right-radius: 20px;
+	
+	top: 0px;
+	left: -3;
+	background:#F5F5F5;
+	box-shadow: 20px 20px 0 var(--grey);
+	z-index: 999;
+}
+.tabs .tab-header > div.active::after {
+	content: '';
+	position: absolute;
+	width: 103%;
+	height: 7px;
+	background:#F5F5F5;
+	border-top-right-radius: 20px;
+
+	bottom: 0px;
+	left: -3;
+	box-shadow: 20px -20px 0 var(--grey);
+	z-index:9999;
+}
+
+
+
+
+
+
+
+
+
+
+.tabs .tab-content {
+
+width:70%;
+  padding:0px 0px;
+  flex:1;
+  position: relative;
+
+
+  
+}
+.tabs .tab-content > div {
+  position:absolute;
+  top:50vh;
+  left:100px;
+  opacity:0;
+overflow:auto;
+  width:calc(100% - 20px);
+  transition:opacity 200ms ease-in-out 0ms,
+             left 300ms ease-in-out 0ms,
+             top 0ms ease-in-out 3000ms;
+}
+.tabs .tab-content > div.active {
+  top:0px;
+  left:10px;
+  opacity:1;
+  transition:opacity 200ms ease-in-out 0ms,
+             left 300ms ease-in-out 0ms,
+             top 0ms ease-in-out 0ms;
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relativ;
+  margin-top: 10%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 5px;
+  width: 5px;
+  margin-top: 0 1;
+  background-color: #fff;
+  border-radius: 61%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+.activee {
+  background-color:red;
+  width:24px;
+  border-radius:15px;
+  
+}
+.dotdark{
+background-color:azure;
+}
+.activeedark{background-color:white}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.card {
+  width: 98%;
+  margin-top: 0%;
+  margin-left: 1%;
+  height: 50%;
+  text-align: center;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+.card a {
+  cursor: none;
+}
+
+.column2 {
+  float: left;
+  width: 33.3%;
+height: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 650px) {
+  .column2 {
+    display: block;
+  }
+}
+
+.card2 {
+  border-radius: 0px;
+  margin: 0px;
+  text-align: center;
+  background-color: #fff;
+  border: 0.5px solid #ff000000;
+  transition: 0.5s;
+  height: auto;
+  overflow: hidden;
+}
+
+.container {
+  padding: 0 0px;
+}
+
+.row {
+  margin-left: 3px;
+  margin-right: 3px;
+  margin: 0%;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title2 {
+  color: grey;
+  font-size: 2.8vw;
+  text-align: center;
+  margin-top: 5.5%;
+}
+
+.rounded-image3 {
+    border-radius: 9px;
+    margin-bottom: 0px;
+    margin-top: 15%;
+    width: 65%;  
+
+}
