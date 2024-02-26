@@ -476,7 +476,7 @@ white-space: nowrap;
 }
 .AchsinulUmamFBtn,.AchsinulUmamFDeterminate {
   border-radius: 5px;
-  background: linear-gradient(to right,#DF1995 ,#DF1995);
+  background: linear-gradient(to right,var(--AchsinulUmamB2) ,var(--AchsinulUmamB1));
   color: #fff;
 margin-top:0px;
 }
