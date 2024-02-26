@@ -562,7 +562,7 @@ text-align:right;
 .listmode-switch .slider:before {
       transform: rotate(90deg);
      -webkit-transform: rotate(90deg);
-      background:url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24'><path fill='orange' stroke='black' d='M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z'></path><path fill='orange' stroke='black' d='M12 2V22'></path></svg>")
+      background:url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24'><path fill='rgba(1, 79, 91, 1)' stroke='black' d='M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z'></path><path fill='rgba(1, 79, 91, 1)' stroke='black' d='M12 2V22'></path></svg>")
 }               
 .listmode-switch .switch.list .slider:before {
     background: #fff;
@@ -570,7 +570,7 @@ text-align:right;
     transform: translateX(18px);
 } 
 .listmode-switch .switch.list .slider:before {
-      background:url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24'><path fill='orange' stroke='black' d='M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z'></path><path fill='black' stroke='black' d='M12 2V22'></path><path fill='orange' stroke='black' d='M2 12H22'></path></svg>")
+      background:url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24'><path fill='rgba(1, 79, 91, 1)' stroke='black' d='M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z'></path><path fill='black' stroke='black' d='M12 2V22'></path><path fill='rgba(1, 79, 91, 1)' stroke='black' d='M2 12H22'></path></svg>")
 }       
 .AchsinulUmamL-harga {
   color:#fff;
